@@ -1,5 +1,7 @@
 \ Stingstack                                           uh 2015-10-02
 
+here
+
 : have ( <spaces>ccc<spaces> -- flag )
     BL WORD FIND NIP ;
 
@@ -242,4 +244,4 @@ Create actual-results #stack cells allot
 *test*
 \ --------- done testing -------------
 
-cr .( Stringstack successfully loaded.)
+cr .( Stringstack successfully loaded. )  here swap - . .( Bytes)
