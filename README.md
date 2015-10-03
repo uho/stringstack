@@ -3,7 +3,7 @@ String Stack
 
 Ulrich Hoffmann <uho@xlerb.de>
 
-Version 1.0.0 - 2015-10-03
+Version 1.0.1 - 2015-10-03
 
 This package provides an implementation of a string stack to Forth-94 and Forth-2012 systems.
 It is based on a string stack implementation by Klaus Schliesiek from 1986 but instead of

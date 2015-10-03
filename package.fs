@@ -1,10 +1,12 @@
 forth-package
-s" name" s" stringstack" key-value
-s" version" s" 1.0.0" key-value
-s" description" s" processessing strings the forth way: on a string stack" key-value
-s" tags" s" ANSForth94 Forth-94 Forth-2012 strings" key-value
-s" main" s" stringstack.fs" key-value
-s" author" s" Ulrich Hoffmann <uho@xlerb.de>" key-value
-s" maintainer" s" Ulrich Hoffmann <uho@xlerb.de>" key-value
-s" license" s" mit-license"
+key-value name stringstack
+key-value version 1.0.1
+key-value description processessing strings the forth way: on a string stack
+key-list tags ANSForth94 
+key-list tags Forth-94 
+key-list tags Forth-2012 strings
+key-value main stringstack.fs
+key-value author Ulrich Hoffmann <uho@xlerb.de>
+key-value maintainer Ulrich Hoffmann <uho@xlerb.de>
+key-value license MIT
 end-forth-package
