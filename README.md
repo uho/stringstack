@@ -1,9 +1,9 @@
 String Stack
 ============
 
-Ulrich Hoffmann <uho@xlerb.de>
+Ulrich Hoffmann <<uho@xlerb.de>>
 
-Version 1.0.2 - 2015-10-03
+Version 1.0.3 - 2015-10-07
 
 This package provides an implementation of a string stack to Forth-94 and Forth-2012 systems.
 It is based on a string stack implementation by Klaus Schliesiek from 1986 but instead of
@@ -35,7 +35,7 @@ Join strings
 
 `" Forth String World!"   " Hello, "   "join  ".`  **Hello, Forth String World! ok**
 
-Split a string at a given delimiter, the join the resulting strings with another delimiter
+Split a string at a given delimiter, then join the resulting strings using another delimiter
 
 `" sing,sang,song" " ,"  "delimiter-split   "  - " "delimiter-join ".`  **sing - sang - song ok**
 
@@ -45,7 +45,7 @@ Substitute a string within a text by some other string
 
 ## Bug Reports
 
-Please send bug reports, umprovements and suggestions to Ulrich Hoffmann <<uho@xlerb.de>>
+Please send bug reports, improvements and suggestions to Ulrich Hoffmann <<uho@xlerb.de>>
 
 ## Conformance
 
